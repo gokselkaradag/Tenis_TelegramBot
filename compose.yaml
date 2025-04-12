@@ -1,0 +1,6 @@
+﻿services:
+  tenis_telegrambot.app:
+    image: tenis_telegrambot.app
+    build:
+      context: .
+      dockerfile: Tenis_TelegramBot.App/DockerFile
